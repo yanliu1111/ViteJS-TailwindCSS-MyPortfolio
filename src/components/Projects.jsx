@@ -22,7 +22,7 @@ const Projects = () => {
         />
         <ProjectItem
           img={bookworm}
-          title="Bookworm web App"
+          title="Bookworm web App."
           link="https://github.com/yanliu1111/ReactFirebase-FullStackProject-bookLibrary"
         />
         <ProjectItem
