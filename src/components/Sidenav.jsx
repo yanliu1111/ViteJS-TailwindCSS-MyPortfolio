@@ -13,10 +13,10 @@ const Sidenav = () => {
     setNav(!nav);
   };
   return (
-    <div className="text-blue-5">
+    <div className="text-black">
       <AiOutlineMenu
         onClick={handleNav}
-        className="absolute top-4 right-4 z-[99] md:hidden }"
+        className="absolute top-4 right-4 z-[99] md:hidden  text-sky-300 bg-black/50 text-xl cursor-pointer }"
       />
       {nav ? (
         <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
