@@ -6,7 +6,7 @@ const data = [
     title: "Full-stack Developer (Learner), InceptionU Ltd.",
     duration: "Aug 2022 - present",
     details:
-      "Completed an accelerated software engineering program with an emphasis on full-stack web development. Learned computer science fundamentals and industry best practices through lecture and pair-programming exercises. I also learned about the Agile software development process and how to work in a team environment. I am working on three projects, the techincal skills I am using are: JavaScript, Python, HTML&CSS, React, React Native, ViteJS, NextJS, NodeJS, ExpressJS, Rest API, MS SQL, Firebase, Git, MongoDB, Tailwind CSS, MUI, Bootstrap, and more.",
+      "Completed an accelerated software engineering program with an emphasis on full-stack web development. Learned computer science fundamentals and industry best practices through lecture and pair-programming exercises. I also learned about the Agile software development process and how to work in a team environment. I am working on three projects, the techincal skills I am using are: JavaScript, Python, HTML&CSS, React, React Native, ViteJS, NextJS, Git, NodeJS, ExpressJS, Rest API, MS SQL, Firebase, MongoDB, Tailwind CSS, MUI, Bootstrap, and more.",
   },
   {
     year: "2022",
