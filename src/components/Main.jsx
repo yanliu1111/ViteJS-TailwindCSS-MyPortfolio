@@ -9,12 +9,12 @@ const Main = () => {
         src="https://images.unsplash.com/photo-1573496546735-c274b1fd186b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80"
         alt=""
       />
-      <div className="w-full h-screen absolute top-0 left-0">
+      <div className="w-full h-screen absolute top-0 left-0 bg-black/22">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-blue-500">
             I'm Yan Liu
           </h1>
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-blue-500">
+          <h2 className="flex sm:text-3xl text-2xl pt-4 text-sky-300">
             I'm a
             <TypeAnimation
               sequence={[
