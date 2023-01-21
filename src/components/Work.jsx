@@ -33,8 +33,8 @@ const data = [
   {
     year: "2018",
     title:
-      "Junior Optical Imaging Analyst, Live Cell Imaging Laboratory, Snyder Institute for Chronic Disease, University of Calgary",
-    duration: "Apr 2018 –  Aug 2019",
+      "Optical Imaging Analyst, Live Cell Imaging Laboratory, Snyder Institute for Chronic Disease, University of Calgary",
+    duration: "Apr 2018 – Aug 2019",
     details:
       "Created batch code for 3D segmentation, maximum intensity projection (MIP) particle analysis and exported of data; used machine learning (Google Cloud AI) to distinguish the endothelial cells in 3 conditions. Developed the clustering and segmentation analysis for 3D stack of optical imaging data using MATLAB and Python. Provided tutorials on imaging data collection and research recommendations on analysis software such as ImageJ (FIJI), Bitplane IMARIS, Volocity and Huygens Deconvolution. Worked in and organized the projects interfacing frequently across various research groups, such as working in Agriculture and Agri-Food Canada project and cooperating with Bioengineering group. Strengthened the skills in database management skills and database system performance with SQL server.",
   },
