@@ -3,6 +3,7 @@ import ProjectItem from "./ProjectItem";
 import crypto from "../assets/crypto2.jpg";
 import bookworm from "../assets/bookworm2.jpg";
 import hellocalgary from "../assets/hellocalgary.jpg";
+import audioplayer from "../assets/audioplayer.jpg";
 import ProjectHead from "./ProjectHead";
 
 const Projects = () => {
@@ -19,6 +20,11 @@ const Projects = () => {
           img={crypto}
           title="Crypto web App"
           link="https://github.com/yanliu1111/ReactFirebase-FullStackProject-crytobase"
+        />
+        <ProjectItem
+          img={audioplayer}
+          title="Audio Player mobil App"
+          link="https://github.com/yanliu1111/ReactNative-expo-functionComponent-AudioPlayer"
         />
         <ProjectItem
           img={bookworm}

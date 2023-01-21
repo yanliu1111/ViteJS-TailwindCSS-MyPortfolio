@@ -21,7 +21,7 @@ const data = [
       "Research Assistant, Pathology and Laboratory Medicine, Cumming School of Medicine, University of Calgary",
     duration: "Nov 2020 - Dec 2021",
     details:
-      "Responsible for performing a range of research and coordination tasks in support of the pandemic disease research projects. Develop and implement original experiments within the guidelines of the research. Work with large datasets for experimental analysis (microarray, sequencing, mass-spectrometry). Work on bioinformatics analysis in Next Generation Sequencing.Performs data management and data cleaning when required. Conduct basic data analysis of study findings using statistical software in support of the research project. Data collection and assisting with interpretation and analysis of data collected.",
+      "Responsible for performing a range of research and coordination tasks in support of the pandemic disease research projects. Develop and implement original experiments within the guidelines of the research. Work with large datasets for experimental analysis (microarray, sequencing, mass-spectrometry). Work on bioinformatics analysis in Next Generation Sequencing. Performs data management and data cleaning when required. Conduct basic data analysis of study findings using statistical software in support of the research project. Data collection and assisting with interpretation and analysis of data collected.",
   },
   {
     year: "2020",
