@@ -33,8 +33,8 @@ const Projects = () => {
         />
         <ProjectItem
           img={hellocalgary}
-          title="Hello Calgary mobile App"
-          link="https://github.com/yanliu1111/"
+          title="Egg Hunter mobile App"
+          link="https://github.com/maggiechew/Green-Eggs-and-RAM"
         />
       </div>
     </div>
