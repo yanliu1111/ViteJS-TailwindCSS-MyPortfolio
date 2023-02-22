@@ -2,7 +2,7 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import crypto from "../assets/crypto2.jpg";
 import bookworm from "../assets/bookworm2.jpg";
-import hellocalgary from "../assets/hellocalgary.jpg";
+import hellocalgary from "../assets/appScreens.png";
 import audioplayer from "../assets/audioplayer.jpg";
 import ProjectHead from "./ProjectHead";
 
