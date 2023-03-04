@@ -64,14 +64,14 @@ const Main = () => {
                 src=""
                 size={20}
               />
-              <FaFacebook
+              {/* <FaFacebook
                 className="cursor-pointer"
                 onClick={() => {
                   return alert("Please check my LinkedIn profile");
                 }}
                 src=""
                 size={20}
-              />
+              /> */}
             </div>
           </div>
         </div>
