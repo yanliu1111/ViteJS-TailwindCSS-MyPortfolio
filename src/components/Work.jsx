@@ -4,9 +4,15 @@ const data = [
   {
     year: "2022",
     title: "Full-stack Developer (Learner), InceptionU Ltd.",
-    duration: "Aug 2022 - present",
+    duration: "Aug 2022 - Mar 2023",
     details:
       "Completed an accelerated software engineering program with an emphasis on full-stack web development. Learned computer science fundamentals and industry best practices through lecture and pair-programming exercises. I also learned about the Agile software development process and how to work in a team environment. I am working on three projects, the techincal skills I am using are: JavaScript, Python, HTML&CSS, React, React Native, ViteJS, NextJS, Git, NodeJS, ExpressJS, Rest API, MS SQL, Firebase, MongoDB, Tailwind CSS, MUI, Bootstrap, and more.",
+    projectOne:
+      "Project One: Backend project, created a text-based interactive game using HTTP APIs with JavaScript, ExpressJS, NodeJS, SQL server. The user can save their progress and start up again, a custom CLI that interacts with the SQL server.",
+    projectTwo:
+      "Project Two: Bookworm is a book library website built on React and developed using the MERN stack. The website is integrated with the Books API from Google developers and features main tech skills such as React, Tailwind CSS, CRUD, Authentication, Firebase, and cloud database.",
+    projectThree:
+      "Project Three: Egg Hunter YYC is a geocaching game app that connects users to cultural organizations, artists, and truth-tellers in Calgary. Users can discover and interact with virtual 'eggs' containing audio, visual or augmented reality content that's only accessible in specific zones of the city. The app tracks user movements and retrieves zone, egg, and media content data from a database, while persisting zone, egg and user information in firestore. Egg Hunter YYC amplifies voices and impacts in the city while providing a fun and interactive way for users to learn about Calgary's culture, history, and future.",
   },
   {
     year: "2022",
@@ -51,6 +57,9 @@ const Work = () => {
           title={item.title}
           duration={item.duration}
           details={item.details}
+          projectOne={item.projectOne}
+          projectTwo={item.projectTwo}
+          projectThree={item.projectThree}
         />
       ))}
     </div>
