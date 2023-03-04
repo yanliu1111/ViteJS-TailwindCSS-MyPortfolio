@@ -4,6 +4,7 @@ import crypto from "../assets/crypto2.jpg";
 import bookworm from "../assets/bookworm2.jpg";
 import hellocalgary from "../assets/appScreens.png";
 import audioplayer from "../assets/audioplayer.jpg";
+import tsNotebook from "../assets/notebookTsVite.png";
 import ProjectHead from "./ProjectHead";
 
 const Projects = () => {
@@ -35,6 +36,12 @@ const Projects = () => {
           img={hellocalgary}
           title="Egg Hunter mobile App"
           link="https://github.com/maggiechew/Green-Eggs-and-RAM"
+        />
+        {/* tsNotebook */}
+        <ProjectItem
+          img={tsNotebook}
+          title="Notebook App with TS and Vite"
+          link="https://github.com/yanliu1111/typescript-training/tree/main/vite/vite-ts-project"
         />
       </div>
     </div>
