@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaLinkedinIn, FaGithub, FaTwitter, FaFacebook } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaTwitter, FaGlobe } from "react-icons/fa";
 const Main = () => {
   return (
     <div id="main">
@@ -56,6 +56,14 @@ const Main = () => {
                 src=""
                 size={20}
               />
+              <FaGlobe
+                className="cursor-pointer"
+                onClick={() => {
+                  window.open("https://www.yancodeblog.codes/");
+                }}
+                src=""
+                size={20}
+              />
               <FaTwitter
                 className="cursor-pointer"
                 onClick={() => {
@@ -64,14 +72,6 @@ const Main = () => {
                 src=""
                 size={20}
               />
-              {/* <FaFacebook
-                className="cursor-pointer"
-                onClick={() => {
-                  return alert("Please check my LinkedIn profile");
-                }}
-                src=""
-                size={20}
-              /> */}
             </div>
           </div>
         </div>
