@@ -5,6 +5,7 @@ import bookworm from "../assets/bookworm2.jpg";
 import hellocalgary from "../assets/appScreens.png";
 import audioplayer from "../assets/audioplayer.jpg";
 import tsNotebook from "../assets/notebookTsVite.png";
+import myBlog from "../assets/myBlogNextjsTs.png";
 import ProjectHead from "./ProjectHead";
 
 const Projects = () => {
@@ -17,6 +18,24 @@ const Projects = () => {
         <ProjectHead />
       </div>
       <div className="grid sm:grid-cols-2 gap-12">
+        {/* myBlog */}
+        <ProjectItem
+          img={myBlog}
+          title="CodeBlog with Nextjs and TS"
+          link="https://www.yancodeblog.codes/"
+        />
+        {/* tsNotebook */}
+        <ProjectItem
+          img={tsNotebook}
+          title="Notebook App with TS and Vite"
+          link="https://github.com/yanliu1111/typescript-training/tree/main/vite/vite-ts-project"
+        />
+        {/* Project3 */}
+        <ProjectItem
+          img={hellocalgary}
+          title="Egg Hunter mobile App"
+          link="https://github.com/maggiechew/Green-Eggs-and-RAM"
+        />
         <ProjectItem
           img={crypto}
           title="Crypto web App"
@@ -31,17 +50,6 @@ const Projects = () => {
           img={bookworm}
           title="Bookworm web App"
           link="https://github.com/yanliu1111/ReactFirebase-FullStackProject-bookLibrary"
-        />
-        <ProjectItem
-          img={hellocalgary}
-          title="Egg Hunter mobile App"
-          link="https://github.com/maggiechew/Green-Eggs-and-RAM"
-        />
-        {/* tsNotebook */}
-        <ProjectItem
-          img={tsNotebook}
-          title="Notebook App with TS and Vite"
-          link="https://github.com/yanliu1111/typescript-training/tree/main/vite/vite-ts-project"
         />
       </div>
     </div>
