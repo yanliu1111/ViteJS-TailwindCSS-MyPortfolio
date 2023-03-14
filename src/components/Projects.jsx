@@ -23,39 +23,42 @@ const Projects = () => {
         <ProjectItem
           img={myBlog}
           title="CodeBlog with Nextjs and TS"
-          link="https://www.yancodeblog.codes/"
+          projgithub="https://github.com/yanliu1111/nextjs-ts-my-markdown-blog"
+          projlink="https://www.yancodeblog.codes/"
         />
         {/* tsNotebook */}
         <ProjectItem
           img={tsNotebook}
           title="Notebook App with TS and Vite"
-          link="https://github.com/yanliu1111/typescript-training/tree/main/vite/vite-ts-project"
+          projgithub="https://github.com/yanliu1111/typescript-training/tree/main/vite/vite-ts-project"
+          //popup no deploy yet
         />
         {/* Project3 */}
         <ProjectItem
           img={hellocalgary}
           title="Egg Hunter mobile App"
-          link="https://github.com/maggiechew/Green-Eggs-and-RAM"
+          projgithub="https://github.com/maggiechew/Green-Eggs-and-RAM"
         />
         <ProjectItem
           img={crypto}
           title="Crypto web App"
-          link="https://github.com/yanliu1111/ReactFirebase-FullStackProject-crytobase"
+          projgithub="https://github.com/yanliu1111/ReactFirebase-FullStackProject-crytobase"
         />
         <ProjectItem
           img={htmlCss}
           title="Only HTML & CSS"
-          link="https://yanliu1111.github.io/make-website-using-HTML-CSS/"
+          projgithub="https://github.com/yanliu1111/make-website-using-HTML-CSS"
+          projlink="https://yanliu1111.github.io/make-website-using-HTML-CSS/"
         />
         <ProjectItem
           img={audioplayer}
           title="Audio Player mobil App"
-          link="https://github.com/yanliu1111/ReactNative-expo-functionComponent-AudioPlayer"
+          projgithub="https://github.com/yanliu1111/ReactNative-expo-functionComponent-AudioPlayer"
         />
         <ProjectItem
           img={bookworm}
           title="Bookworm web App"
-          link="https://github.com/yanliu1111/ReactFirebase-FullStackProject-bookLibrary"
+          projgithub="https://github.com/yanliu1111/ReactFirebase-FullStackProject-bookLibrary"
         />
       </div>
     </div>
