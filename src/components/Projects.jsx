@@ -6,6 +6,7 @@ import hellocalgary from "../assets/appScreens.png";
 import audioplayer from "../assets/audioplayer.jpg";
 import tsNotebook from "../assets/notebookTsVite.png";
 import myBlog from "../assets/myBlogNextjsTs.png";
+import htmlCss from "../assets/onlyHTMLCSS.png";
 import ProjectHead from "./ProjectHead";
 
 const Projects = () => {
@@ -40,6 +41,11 @@ const Projects = () => {
           img={crypto}
           title="Crypto web App"
           link="https://github.com/yanliu1111/ReactFirebase-FullStackProject-crytobase"
+        />
+        <ProjectItem
+          img={htmlCss}
+          title="Only HTML & CSS"
+          link="https://yanliu1111.github.io/make-website-using-HTML-CSS/"
         />
         <ProjectItem
           img={audioplayer}
