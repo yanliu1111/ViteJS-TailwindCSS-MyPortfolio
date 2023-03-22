@@ -24,12 +24,14 @@ const ProjectItem = ({ img, title, projgithub, projlink }) => {
             <AiFillGithub size={32} />
           </a>
 
-          <a
-            className=" text-white font-bold hover:scale-105 transition-all duration-300"
-            href={projlink}
-          >
-            <RiPagesLine size={32} />
-          </a>
+          {projlink ? (
+            <a
+              className=" text-white font-bold hover:scale-105 transition-all duration-300"
+              href={projlink}
+            >
+              <RiPagesLine size={32} />
+            </a>
+          ) : null}
         </div>
       </div>
     </div>

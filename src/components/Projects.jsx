@@ -7,6 +7,7 @@ import audioplayer from "../assets/audioplayer.jpg";
 import tsNotebook from "../assets/notebookTsVite.png";
 import myBlog from "../assets/myBlogNextjsTs.png";
 import htmlCss from "../assets/onlyHTMLCSS.png";
+import ecommerce from "../assets/ecommerce.png";
 import ProjectHead from "./ProjectHead";
 
 const Projects = () => {
@@ -19,6 +20,12 @@ const Projects = () => {
         <ProjectHead />
       </div>
       <div className="grid sm:grid-cols-2 gap-12">
+        {/* eccommerce */}
+        <ProjectItem
+          img={ecommerce}
+          title="E-commerce web with React and TS"
+          projgithub="https://github.com/yanliu1111/react-typeScript-ecommerce-proj"
+        />
         {/* myBlog */}
         <ProjectItem
           img={myBlog}
