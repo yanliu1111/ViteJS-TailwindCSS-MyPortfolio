@@ -25,6 +25,7 @@ const Projects = () => {
           img={ecommerce}
           title="E-commerce web with React and TS"
           projgithub="https://github.com/yanliu1111/react-typeScript-ecommerce-proj"
+          projlink="https://courageous-buttercream-dab68f.netlify.app/"
         />
         {/* myBlog */}
         <ProjectItem
