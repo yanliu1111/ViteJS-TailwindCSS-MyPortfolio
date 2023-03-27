@@ -7,7 +7,7 @@ import audioplayer from "../assets/audioplayer.jpg";
 import tsNotebook from "../assets/notebookTsVite.png";
 import myBlog from "../assets/myBlogNextjsTs.png";
 import htmlCss from "../assets/onlyHTMLCSS.png";
-import ecommerce from "../assets/ecommerce.png";
+import ecommerce from "../assets/ecommerce1.png";
 import ProjectHead from "./ProjectHead";
 
 const Projects = () => {
