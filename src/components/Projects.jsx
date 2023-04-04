@@ -9,6 +9,7 @@ import myBlog from "../assets/myBlogNextjsTs.png";
 import htmlCss from "../assets/onlyHTMLCSS.png";
 import ecommerce from "../assets/ecommerce1.jpg";
 import ProjectHead from "./ProjectHead";
+import flaskrestapi from "../assets/flaskrestapi.jpg";
 
 const Projects = () => {
   return (
@@ -20,6 +21,12 @@ const Projects = () => {
         <ProjectHead />
       </div>
       <div className="grid sm:grid-cols-2 gap-12">
+        {/* flaskrestapi */}
+        <ProjectItem
+          img={flaskrestapi}
+          title="Build a REST API with Flask"
+          projgithub="https://github.com/yanliu1111/flask-rest-api-project"
+        />
         {/* eccommerce */}
         <ProjectItem
           img={ecommerce}
