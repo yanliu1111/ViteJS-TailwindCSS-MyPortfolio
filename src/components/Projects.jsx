@@ -26,6 +26,7 @@ const Projects = () => {
           img={flaskrestapi}
           title="Build a REST API with Flask"
           projgithub="https://github.com/yanliu1111/flask-rest-api-project"
+          projlink="https://flask-rest-api-project-rmrw.onrender.com/"
         />
         {/* eccommerce */}
         <ProjectItem
