@@ -9,7 +9,7 @@ import myBlog from "../assets/myBlogNextjsTs.png";
 import htmlCss from "../assets/onlyHTMLCSS.png";
 import ecommerce from "../assets/ecommerce1.jpg";
 import ProjectHead from "./ProjectHead";
-import flaskrestapi from "../assets/flaskrestapi.jpg";
+import flaskrestapi from "../assets/flaskrestapi2.jpg";
 
 const Projects = () => {
   return (
