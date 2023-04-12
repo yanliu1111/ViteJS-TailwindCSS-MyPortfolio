@@ -10,7 +10,7 @@ import htmlCss from "../assets/onlyHTMLCSS.png";
 import ecommerce from "../assets/ecommerce1.jpg";
 import ProjectHead from "./ProjectHead";
 import flaskrestapi from "../assets/flaskrestapi2.jpg";
-import embeddings from "../assets/embeddings2.jpg";
+import embeddings from "../assets/embeddings.jpg";
 
 const Projects = () => {
   return (
