@@ -10,6 +10,7 @@ import htmlCss from "../assets/onlyHTMLCSS.png";
 import ecommerce from "../assets/ecommerce1.jpg";
 import ProjectHead from "./ProjectHead";
 import flaskrestapi from "../assets/flaskrestapi2.jpg";
+import embeddings from "../assets/embeddings.jpg";
 
 const Projects = () => {
   return (
@@ -21,6 +22,12 @@ const Projects = () => {
         <ProjectHead />
       </div>
       <div className="grid sm:grid-cols-2 gap-12">
+        {/* embeddings */}
+        <ProjectItem
+          img={embeddings}
+          title="ChatGPT API Embeddings Supabase"
+          projgithub="https://github.com/yanliu1111/ChatGPT-API-embeddings-Supabase"
+        />
         {/* flaskrestapi */}
         <ProjectItem
           img={flaskrestapi}
