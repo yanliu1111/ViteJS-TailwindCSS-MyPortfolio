@@ -11,6 +11,7 @@ import ecommerce from "../assets/ecommerce1.jpg";
 import ProjectHead from "./ProjectHead";
 import flaskrestapi from "../assets/flaskrestapi2.jpg";
 import embeddings from "../assets/embeddings3.jpg";
+import inventory from "../assets/inventory2.jpg";
 
 const Projects = () => {
   return (
@@ -22,6 +23,12 @@ const Projects = () => {
         <ProjectHead />
       </div>
       <div className="grid sm:grid-cols-2 gap-12">
+        {/* inventory */}
+        <ProjectItem
+          img={inventory}
+          title="Inventory and Payment App & Microservices"
+          projgithub="https://github.com/yanliu1111/microservices-fastapi-fullStack-app"
+        />
         {/* embeddings */}
         <ProjectItem
           img={embeddings}
