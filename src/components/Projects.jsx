@@ -12,6 +12,8 @@ import ProjectHead from "./ProjectHead";
 import flaskrestapi from "../assets/flaskrestapi2.jpg";
 import embeddings from "../assets/embeddings3.jpg";
 import inventory from "../assets/inventory2.jpg";
+import echarts from "../assets/echarts.jpg";
+import prisma from "../assets/prisma.jpg";
 
 const Projects = () => {
   return (
@@ -23,6 +25,18 @@ const Projects = () => {
         <ProjectHead />
       </div>
       <div className="grid sm:grid-cols-2 gap-12">
+        {/* echarts */}
+        <ProjectItem
+          img={echarts}
+          title="Realtime pandemic dashboard using web scrapping data"
+          projgithub="https://github.com/yanliu1111/dashboard-flask-echarts"
+        />
+        {/* prisma */}
+        <ProjectItem
+          img={prisma}
+          title="Turbo monorepo project with ORMs and data migrations strategies"
+          projgithub="https://github.com/yanliu1111/monorepo-docker-fullstack-app"
+        />
         {/* inventory */}
         <ProjectItem
           img={inventory}
