@@ -14,6 +14,7 @@ import embeddings from "../assets/embeddings3.jpg";
 import inventory from "../assets/inventory2.jpg";
 import echarts from "../assets/echarts.jpg";
 import prisma from "../assets/prisma.jpg";
+import phpproj from "../assets/php.jpg";
 
 const Projects = () => {
   return (
@@ -25,6 +26,12 @@ const Projects = () => {
         <ProjectHead />
       </div>
       <div className="grid sm:grid-cols-2 gap-12">
+        {/* php */}
+        <ProjectItem
+          img={phpproj}
+          title="E-commerce web with PHP and MySQL"
+          projgithub="https://github.com/yanliu1111/php-tutorial/tree/main/14_product_crud/03_mvc"
+        />
         {/* echarts */}
         <ProjectItem
           img={echarts}
