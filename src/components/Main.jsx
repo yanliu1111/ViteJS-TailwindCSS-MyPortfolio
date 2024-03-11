@@ -62,7 +62,7 @@ const Main = () => {
                 className='cursor-pointer'
                 onClick={() => {
                   window.open(
-                    'https://nextjs-ts-my-markdown-blog-h1t7o9r3h-yanliu1111.vercel.app'
+                    'https://nextjs-ts-my-markdown-blog-66cwkyso0-yanliu1111.vercel.app'
                   );
                 }}
                 src=''
