@@ -7,7 +7,7 @@ const data = [
     title: 'Instructor, University of Calgary',
     duration: 'September 2024 -  present',
     details:
-      'Co-teaching “AI Essentials- Building Fluency and Productivity with Modern AI Tools” course, funded by Mircosoft. Teach the Relational Databases Fundamentals course, guiding students through core concepts and practical applications. Collaborate with co-instructors, department directors, and program coordinators for course planning and communication.',
+      'Co-teaching “AI Essentials- Building Fluency and Productivity with Modern AI Tools” course, funded by Microsoft. Teach the Relational Databases Fundamentals course, guiding students through core concepts and practical applications. Collaborate with co-instructors, department directors, and program coordinators for course planning and communication.',
   },
   {
     year: '2023',
