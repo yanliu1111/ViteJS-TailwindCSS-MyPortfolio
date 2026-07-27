@@ -4,7 +4,7 @@ import WorkItem from './WorkItem';
 const data = [
   {
     year: '2025',
-    title: 'Analytic Engineer, FerreLogic Inc',
+    title: 'Analytics Engineer, FerraLogic Inc',
     duration: 'November 2025 -  present',
     details:
       'Design and build end-to-end analytics pipelines using Snowflake, dbt, and AWS, with a strong focus on scalable data modeling. I develop and maintain dbt models, tests, and snapshots to ensure data quality and consistency, and orchestrate workflows using Airflow with custom DAG design for reliable scheduling and dependency management. I also implement data transformations using SQL and PySpark in Databricks, and support CI/CD processes for automated deployment.',
